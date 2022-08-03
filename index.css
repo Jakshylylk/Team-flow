@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+.container {
+  margin: 50px 300px 0px 300px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar div {
+  margin: 0 40px;
+}
+.links a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #35414b;
+}
+.btn {
+  width: 169px;
+  border: none;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #ece5ff;
+  color: #794cff;
+  margin: -20px 10px;
+}
+div.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+span.save {
+  position: absolute;
+  z-index: 1;
+  left: 720px;
+  border-radius: 20px;
+  background-color: #81c43b;
+  color: white;
+  padding: 10px;
+}
+span.acc {
+  position: absolute;
+  right: 700px;
+  background-color: #f2f9eb;
+  border-radius: 0px 50px 50px 0px;
+  padding: 10px 10px 10px 50px;
+  color: #35414b;
+}
+.manage {
+  width: 600px;
+  text-align: center;
+  font-size: 50px;
+  color: #35414b;
+  margin-top: 40px;
+}
+.paragraph {
+  width: 500px;
+  text-align: center;
+  margin: 20px 0;
+  color: #4e5a65;
+}
+.email {
+  width: 300px;
+  padding: 10px 10px 10px 20px;
+  position: relative;
+  right: 60px;
+}
+.btn-try {
+  position: absolute;
+  z-index: 1;
+  right: 650px;
+  border-color: #794cff;
+  background-color: #794cff;
+  width: 100px;
+  padding: 10px;
+  color: white;
+}
+.overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-2 h2 {
+  text-align: center;
+}
+.taems {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.taems div a:hover {
+  border-bottom: 2px solid #35414b;
+}
+div.border {
+  border: 2px solid #f0ebfa;
+  background-color: #fbfafe;
+  margin-top: 50px;
+}
+.section-3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 300px;
+}
+.timline-paragraph div {
+  width: 300px;
+  padding: 20px;
+}
+.timline-paragraph div:hover {
+  border-left: 5px solid #794cff;
+  background-color: #f6f3fc;
+}
+.section-4 {
+  margin: 70px 300px;
+}
+h2.make {
+  text-align: center;
+  color: #35414b;
+}
+.make-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.make-work div {
+  width: 300px;
+  margin: 50px 20px;
+  color: #4e5a65;
+}
+.make-work div:hover {
+  border-bottom: 5px solid #794cff;
+}
+.make-work div h3 {
+  color: #35414b;
+}
+.make-work div img {
+  margin-bottom: 20px;
+}
+.section-5 {
+  display: flex;
+  margin: 70px 300px;
+  justify-content: space-between;
+}
+div.hours-worked {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+}
+div.hours-worked h2 {
+  display: flex;
+  font-size: 40px;
+  color: #35414b;
+  margin: 20px 0;
+}
+div.hours-worked p {
+  color: #4e5a65;
+  line-height: 2;
+}
+div.hours-worked button {
+  margin: 30px 0;
+  padding: 10px;
+  background-color: #796eff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.section-6 {
+  display: flex;
+  flex-direction: column;
+}
+.command-text h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  color: #35414b;
+}
+.command-text p {
+  width: 450px;
+  margin: 30px 320px;
+}
+div.command {
+  display: flex;
+  justify-content: space-between;
+}
+div.command a {
+  color: #4e5a65;
+}
+div.command div {
+  width: 300px;
+  margin-top: 30px;
+  padding: 20px 0px;
+}
+div.command div:hover {
+  border-top: 5px solid #35414b;
+}
+div.command img {
+  margin: 0px 15px;
+}
+div.command span {
+  position: absolute;
+}
+.section-7 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #796eff;
+  border-radius: 5px;
+  height: 150px;
+  color: #ffffff;
+}
+footer {
+  background-color: #1d2830;
+  margin-top: 50px;
+}
+.footer-1 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 50px;
+}
+.footer-1 div {
+  padding: 5px;
+}
+.footer-2 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-img img {
+  border: 1px solid #29353d;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
